@@ -1,13 +1,12 @@
-import Button from '@/ui/button';
+import GameLayout from './layout';
 
 import './App.css';
 
 function App() {
   return (
-    <>
-      <Button>Hello</Button>
-      <div></div>
-    </>
+    <div className="bg-black w-screen h-screen text-white">
+      <GameLayout />
+    </div>
   );
 }
 
