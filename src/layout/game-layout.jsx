@@ -3,9 +3,12 @@ import PlayerZone from '@/components/player-zone';
 
 function GameLayout() {
   return (
-    <main className="flex flex-col h-full w-full">
+    <main className="flex flex-col h-full  bg-[#171717]">
       <Header />
-      <PlayerZone />
+      <div className=" flex-1 flex w-full px-1 gap-1 ">
+        <PlayerZone />
+        <PlayerZone />
+      </div>
     </main>
   );
 }
